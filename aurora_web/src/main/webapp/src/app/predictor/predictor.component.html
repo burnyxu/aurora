@@ -1,0 +1,66 @@
+<div class="main-panel">
+  <app-navigator></app-navigator>
+  <div class="panel-header panel-header-sm">
+  </div>
+  <div class=" content">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card ">
+          <div class="card-header ">
+          </div>
+          <div class="card-body ">
+            <form>
+              <div class="row">
+                <div class="col-md-5 align-self-start">
+                  <div class="form-group">
+                    <h3 class="title">Input Message</h3>
+                    <!-- <blockquote class="blockquote-reverse"> -->
+                    <p class="category" style="font-size:15px">Put case description here to be classfied</p>
+                    <!-- </blockquote> -->
+                    <textarea class="form-control" rows="10" id="comment" name="desc" style="font-size:15px" [(ngModel)]="caseDescription" placeholder="Input message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-2 align-self-center">
+                  <button class="btn btn-primary btn-lg" style="font-size:20px" (click)="getPredict()">Predict</button>
+                </div>
+                <div class="col-md-5 align-self-start">
+                  <h3 class="title">Result</h3>
+                  <blockquote class="blockquote-reverse">
+                    <p class="category" style="font-size:15px">Case classfication Result</p>
+                  </blockquote>
+                  <p rows="5">{{predictResult}}</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="main-panel footer">
+    <!-- <div class="container-fluid">
+        <nav>
+            <ul>
+                <li>
+                    <a>
+                        Aurora
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        About Us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>, Designed by
+            <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
+            <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+        </div>
+    </div> -->
+  </footer>
+</div>

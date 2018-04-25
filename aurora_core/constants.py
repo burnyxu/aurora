@@ -1,0 +1,21 @@
+CONST_DATA_FILE_FOLDER = "D:\\aurora\\rl\\data"
+
+
+#Constants excel file
+CONST_EXCEL_SHEET_REQUEST = "Request"
+CONST_EXCEL_COLUMN_DESCRIPTION = "Description"
+CONST_EXCEL_COLUMN_TYPE = "Case Type Category"
+
+CONST_KEYWORDS_COUNT_EACH_CATE = 10
+
+CONST_TRAINING_DATA_PERCENTIGE = 90
+
+CONST_TAG_YES = 1
+CONST_TAG_NO = 0
+
+
+CONST_TRAINING_FILENAME = "aurora_training.txt"
+CONST_TESTING_FILENAME = "aurora_testing.txt"
+CONST_FEATURE_FILENAME = "aurora_features.txt"
+
+CONST_DTREE_FILE_NAME = "dtree.pkl"

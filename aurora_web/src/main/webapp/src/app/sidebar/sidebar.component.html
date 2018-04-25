@@ -1,0 +1,31 @@
+<div class="sidebar" data-color="blue">
+    <div class="logo">
+             <!-- <a href="#" class="simple-text logo-mini">
+                Aurora
+             </a> -->
+             <a href="#" class="simple-text logo-normal" style="font-size:25px">
+                Aurora
+             </a>
+         </div>
+         <div class="sidebar-wrapper">
+             <ul class="nav" >
+                 <li [ngClass]="caculateClasses('sidepredict')" id="sidepredict">
+                     <a routerLink="/predict" (click)="selectItem('sidepredict')">
+                         <i class="now-ui-icons design_app"></i>
+                         <p style="font-size:13px; font-weight:bold;">Predict</p>
+                     </a>
+                 </li>
+                 <li [ngClass]="caculateClasses('sidestatastics')" id="sidestatastics">
+                     <a routerLink="/statastics" (click)="selectItem('sidestatastics')">
+                         <i class="now-ui-icons education_atom"></i>
+                         <p style="font-size:13px; font-weight:bold;">Statastics</p>
+                     </a>
+                 </li>
+                 <!-- <li>
+                     <a href="../examples/map.html">
+                         <i class="now-ui-icons location_map-big"></i>
+                         <p>Maps</p>
+                     </a>
+                 </li> -->
+             </ul>
+ </div>
